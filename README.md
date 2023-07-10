@@ -61,3 +61,12 @@ services:
     environment:
       <<: *airflow-common-env
 
+
+----------------------------------------------------------------------------------------------------------------
+#now create one more file in VSCode undr AirFlowDocker with name .env and write code in it following--
+AIRFLOW_UID=50000
+AIRFLOW_GID=50000
+
+
+
+
